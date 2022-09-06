@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Ubuntu:wght@300;400&display=swap');
+
+
+a {
+    color: white !important; 
+    padding: 5px; 
+    font-weight: 200;
+
+}

@@ -1,0 +1,17 @@
+.content {
+
+    position: static;
+    margin-left: 100px;
+}
+
+section {
+    margin-left: 100px; 
+}
+section .h2 {
+    /* padding: 200px;  */
+    /* padding-left: 500px;  */
+    position: absolute;
+    align-items: flex-end;
+    margin-left: 200px; 
+}
+
