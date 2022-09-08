@@ -5,5 +5,14 @@
 </div>
 
 <section>
-    <h2>Benvenuto nella Home Page di App Angular</h2>
+    <h2>{{ headername | uppercase }}</h2>
+    <h3>{{ stipendio | percent }}</h3>
+
+    <br>
+    <button (click)="cliccaQui('cliccami')">CLicca</button>
+    <br>
+    <input [value]="ismarried" [disabled]="isdisabled" #txt (change)="cliccaQui(txt.value)">
+    <br>
+    <br>
+    <input [(ngModel)]="headername" />
 </section>

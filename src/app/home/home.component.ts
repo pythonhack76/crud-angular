@@ -9,7 +9,18 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  headername="La nostra Appa";
+  stipendio = '1000'
+
+  isdisabled = true;
+
+  ismarried = false; 
+
   ngOnInit(): void {
+  }
+
+  cliccaQui(name:string){
+    alert(name);
   }
 
 }

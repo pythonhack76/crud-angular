@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StatusComponent } from './status/status.component';
 import { AddcontactComponent } from './addcontact/addcontact.component';
+import { FormsModule } from '@angular/forms';
 //import { AccessRoutingModule } from './access/access-routing.module';
 
 @NgModule({
@@ -28,6 +29,7 @@ import { AddcontactComponent } from './addcontact/addcontact.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
     NgbModule,
     //AccessRoutingModule
   ],
