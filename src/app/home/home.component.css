@@ -4,6 +4,12 @@
     margin-left: 100px;
 }
 
+.headerclass {
+    color: blue; 
+    font-weight: bold;
+    
+}
+
 section {
     margin-left: 100px; 
 }

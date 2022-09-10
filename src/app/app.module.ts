@@ -12,7 +12,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StatusComponent } from './status/status.component';
 import { AddcontactComponent } from './addcontact/addcontact.component';
 import { FormsModule } from '@angular/forms';
+import { StudiesComponent } from './studies/studies.component';
+
 //import { AccessRoutingModule } from './access/access-routing.module';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -23,6 +27,7 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     StatusComponent,
     AddcontactComponent,
+    StudiesComponent,
    
   ],
   imports: [
@@ -31,6 +36,7 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     FormsModule,
     NgbModule,
+    MatFormFieldModule,
     //AccessRoutingModule
   ],
   providers: [],

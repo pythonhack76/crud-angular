@@ -5,8 +5,8 @@
 </div>
 
 <section>
-    <h2>{{ headername | uppercase }}</h2>
-    <h3>{{ stipendio | percent }}</h3>
+    <h2 [ngClass]="classname">{{ headername | uppercase }}</h2>
+    <h3 *ngIf='stipendio > 0' [ngStyle]="stylevalue">{{ stipendio | currency }}</h3>
 
     <br>
     <button (click)="cliccaQui('cliccami')">CLicca</button>
@@ -15,4 +15,9 @@
     <br>
     <br>
     <input [(ngModel)]="headername" />
+
+    <ul>
+        <li *ngFor="let item of colors">{{item}}</li>
+        </ul>
+
 </section>

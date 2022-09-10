@@ -1,0 +1,21 @@
+
+
+<mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Username</mat-label>
+    <input matInput (input)="onInput($event)" />
+
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="onClick($event)">Gioca</button>
+<p *ngIf="4 < 5">test di visualizzazione</p>
+
+
+<p *ngIf="isVisible; then bloccoIf else bloccoElse">Sono visibile</p>
+<ng-template #bloccoIf>
+    <p>sono VISIBILE</p>
+</ng-template>
+<ng-template #bloccoElse>
+    <p>non sono visibile</p>
+</ng-template>
+
+
+

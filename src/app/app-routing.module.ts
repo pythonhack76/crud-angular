@@ -5,10 +5,12 @@ import { AddcontactComponent } from './addcontact/addcontact.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { StatusComponent } from './status/status.component';
+import { StudiesComponent } from './studies/studies.component';
 
 const routes: Routes = [
   { path:"home", component:HomeComponent},
   { path: "about", component:AboutComponent},
+  {path: "studies", component:StudiesComponent},
   { path: "contact", component: ContactComponent,
    children:[
     {path:"add", component: AddcontactComponent},
